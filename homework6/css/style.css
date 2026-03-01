@@ -12,6 +12,7 @@ ul {
   list-style: none;
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .telephone a {
