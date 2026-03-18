@@ -1,0 +1,42 @@
+html {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
